@@ -1,0 +1,5 @@
+rootProject.name = 'master-command'
+include 'core'
+include 'bukkit'
+include 'serdes'
+

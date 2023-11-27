@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'me.masterkaiser.command'
+version '1.0'
+
+repositories {
+    maven { url "https://storehouse.okaeri.eu/repository/maven-public" }
+}
+
+dependencies {
+    compileOnly 'eu.okaeri:okaeri-configs-core:5.0.0-beta.5'
+    compileOnly project(':core')
+}

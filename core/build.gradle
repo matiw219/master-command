@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+group 'me.masterkaiser.command'
+version '1.0'
+
+repositories {
+}
+
+dependencies {
+}
